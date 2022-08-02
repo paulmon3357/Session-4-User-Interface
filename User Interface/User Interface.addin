@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Walls From Lines</Text>
+    <Description>Walls From Lines</Description>
+    <Assembly>User Interface.dll</Assembly>
+    <FullClassName>User_Interface.cmdWallsFromLines</FullClassName>
+    <ClientId>2bb321a5-11ea-4a16-a84a-0700cb905982</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application User Interface</Name>
+    <Assembly>User Interface.dll</Assembly>
+    <FullClassName>User_Interface.App</FullClassName>
+    <ClientId>34f45c0f-8f76-4691-8487-7166e0b8f26e</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
